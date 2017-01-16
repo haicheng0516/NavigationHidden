@@ -165,7 +165,7 @@
 				TargetAttributes = {
 					2D1C640C1E2CC0BF004A40C3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = EQDCPG8YAM;
+						DevelopmentTeam = 6G8SMPXAX7;
 						ProvisioningStyle = Automatic;
 					};
 					2D1C64251E2CC0BF004A40C3 = {
@@ -357,7 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EQDCPG8YAM;
+				DEVELOPMENT_TEAM = 6G8SMPXAX7;
 				INFOPLIST_FILE = NavigationHidden/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SeaCity.NavigationHidden;
@@ -369,7 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EQDCPG8YAM;
+				DEVELOPMENT_TEAM = 6G8SMPXAX7;
 				INFOPLIST_FILE = NavigationHidden/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SeaCity.NavigationHidden;
@@ -420,6 +420,7 @@
 				2D1C64311E2CC0BF004A40C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D1C64321E2CC0BF004A40C3 /* Build configuration list for PBXNativeTarget "NavigationHiddenUITests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				2D1C64341E2CC0BF004A40C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
