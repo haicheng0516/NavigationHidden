@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "SecondViewController.h"
+
+@interface ViewController ()<UINavigationControllerDelegate>
 
 @end
 
@@ -17,6 +19,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor grayColor];
+    
+    self.navigationController.delegate = self;
+}
+
+
+-(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    SecondViewController *secondVC = [[SecondViewController alloc] init];
+    [self.navigationController pushViewController:secondVC animated:YES];
+}
+
+-(void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    
+    BOOL isVC = [viewController isKindOfClass:[self class]];
+    [self.navigationController setNavigationBarHidden:isVC animated:YES];
 }
 
 
